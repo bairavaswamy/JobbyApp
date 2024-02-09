@@ -1,0 +1,145 @@
+.jr-bg-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.user-card {
+  color: white;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  padding: 10px;
+  width: 94%;
+  height: 230px;
+  border-radius: 10px;
+  background-size: cover;
+  text-align: left;
+  margin-top: 15px;
+}
+.user-head {
+  color: #6366f1;
+  font-size: 25px;
+  font-weight: 500;
+}
+.user-para {
+  color: black;
+  font-size: 17px;
+  font-weight: 300;
+}
+.hr-line-jb {
+  width: 94%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+.search-input {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+}
+.search-input-container {
+  display: none;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 400px;
+  margin-left: 40px;
+}
+.search-input-container1 {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 87%;
+  align-self: center;
+}
+.search-button-container {
+  background-color: #475569;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+}
+.search-icon {
+  color: #ffffff;
+  width: 15px;
+  height: 15px;
+}
+
+.jb-toe {
+  color: #f1f5f9;
+  font-size: 15px;
+}
+.card-left {
+  margin-left: 25px;
+}
+.label-txt {
+  color: white;
+  margin-left: 4px;
+}
+.toe-style {
+  width: 200px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding-left: 0px;
+}
+.check-box-container {
+  margin-top: 7px;
+
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .jr-bg-container {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .user-card {
+    color: white;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    padding: 10px;
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+    background-size: cover;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .hr-line-jb {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0pc;
+  }
+  .search-input-container1 {
+    display: none;
+  }
+  .search-input-container {
+    display: flex;
+  }
+  .toe-style {
+    padding-left: 20px;
+  }
+}

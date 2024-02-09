@@ -1,0 +1,82 @@
+.inner-form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.bg-login {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  background-color: #272727;
+  padding: 10px;
+  width: 85%;
+  min-height: 35%;
+  text-align: center;
+  border-radius: 4px;
+  max-height: 50%;
+}
+.Lb-form {
+  color: #f1f5f9;
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-left: 34px;
+}
+.img-width {
+  width: 110px;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 17px;
+}
+.form-ip {
+  width: 80%;
+  align-self: center;
+  height: 15px;
+  background-color: transparent;
+  border: solid 1px #7e858e;
+  border-radius: 3px;
+  color: #f1f5f9;
+  padding: 13px;
+}
+.lg-btn {
+  background-color: #6366f1;
+  color: white;
+  border-radius: 6px;
+  padding: 6px;
+  width: 80%;
+  margin-top: 35px;
+  border-width: 0px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.err-msg {
+  color: red;
+  text-align: left;
+  margin-left: 40px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    width: 35%;
+
+    min-height: 52%;
+    max-height: 70%;
+  }
+  .Lb-form {
+    margin-left: 45px;
+  }
+  .img-width {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}

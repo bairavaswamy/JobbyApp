@@ -1,0 +1,88 @@
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  color: white;
+}
+
+.nav-img {
+  width: 120px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.nav-cont {
+  display: flex;
+  flex-direction: row;
+  background-color: #272727;
+  justify-content: space-between;
+}
+.nav-list {
+  display: none;
+  justify-content: space-between;
+}
+.icon-btn1 {
+  background-color: transparent;
+  border-width: 0px;
+  margin-bottom: 18px;
+}
+.list-nav-items {
+  color: #f1f5f9;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+.logout-btn {
+  display: none;
+  background-color: #6366f1;
+  color: white;
+  border-radius: 6px;
+  padding: 6px;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  margin-right: 40px;
+  text-align: center;
+}
+.header-icon {
+  color: #f1f5f9;
+  width: 30px;
+  height: 30px;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+
+.icon-btn {
+  background-color: transparent;
+  cursor: pointer;
+  border-width: 0px;
+}
+.icons-container {
+  display: flex;
+  margin-right: 1px;
+  margin-left: 85px;
+  flex-direction: row;
+}
+.lk-style {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .logout-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

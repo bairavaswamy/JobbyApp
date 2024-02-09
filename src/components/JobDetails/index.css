@@ -1,0 +1,48 @@
+.jobs-card {
+  color: white;
+}
+.loader-container1 {
+  margin-left: 500px;
+  margin-top: 400px;
+}
+.failure-view {
+  margin-top: 100px;
+  margin-left: 200px;
+  color: white;
+  text-align: center;
+}
+.retry-btn1 {
+  background-color: #4f46e5;
+  border-width: 0px;
+  border-radius: 2px;
+  color: white;
+  padding: 5px;
+  width: 110px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.no-jobs-head {
+  color: white;
+}
+.no-jobs-para {
+  color: white;
+  margin-bottom: 100px;
+}
+.nj-container {
+  margin-top: 10px;
+  margin-left: 1px;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.nj-icon {
+  width: 70%;
+}
+@media (min-width: 768px) {
+  .nj-container {
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+  }
+}

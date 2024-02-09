@@ -1,0 +1,109 @@
+.jobs-card {
+  color: white;
+}
+.jb-list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  background-color: #272727;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 7px;
+  padding-right: 20px;
+  margin-right: 100px;
+}
+.jb-card1 {
+  display: flex;
+  flex-direction: row;
+}
+.jobs-card12 {
+  display: flex;
+  flex-direction: column;
+}
+.jobs-card12-jobs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .jb-list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    background-color: #272727;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 15px;
+  }
+}
+
+.jb-card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ratting-card {
+  display: flex;
+  flex-direction: row;
+}
+.inner-card {
+  display: flex;
+  flex-direction: row;
+}
+.inner-card1 {
+  display: flex;
+  flex-direction: row;
+}
+.hr-line {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+.jb-jobDescription {
+  color: #f1f5f9;
+  font-size: 15px;
+}
+.jb-head {
+  color: #f1f5f9;
+  font-size: 20px;
+}
+.logo-size {
+  width: 60px;
+  height: 60px;
+  margin-top: 16px;
+}
+.jb-role {
+  color: #f1f5f9;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.rating-icon {
+  color: #fbbf24;
+  margin-top: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.jb-rating {
+  color: #f1f5f9;
+  font-size: 18px;
+}
+.jb-location {
+  color: #f1f5f9;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.jb-icons {
+  margin-top: 15px;
+  margin-right: 7px;
+}
+.lpa {
+  color: #f1f5f9;
+  margin-bottom: 5px;
+}
